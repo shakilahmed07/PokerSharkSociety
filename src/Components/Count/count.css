@@ -1,0 +1,131 @@
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .count-box {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .countdown {
+    margin: 15px !important;
+  }
+}
+
+
+@media (min-width: 632px) and (max-width: 767px) {
+  .count-box {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .countdown {
+    margin: 15px !important;
+  }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 631px) {
+  .count-box {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .countdown {
+    margin: 15px !important;
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 480px) {
+	.count-box {
+		display: block !important;
+	}
+	.countdown {
+		margin-bottom: 20px !important;
+	}
+}
+.expired-notice {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+  }
+  
+  .expired-notice > span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .expired-notice > p {
+    font-size: 1.5rem;
+  }
+  
+  .show-counter {
+    padding: 0.5rem;
+  }
+  
+  .show-counter .countdown-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .show-counter .countdown {
+    line-height: inherit;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .count-box {
+    display: flex;
+    align-items: center;
+  }
+  .countdown {
+    width: 200px;
+    color: #fff;
+    height: 200px;
+    box-shadow: inset 0 0 30px rgba(30, 228, 255, 0.8);
+    border-radius: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .countdown p {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .countdown span {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: inherit;
+  }
+  
